@@ -12,7 +12,7 @@ if (flock($fp,
         die("\n\nAlready in use\n\n");
 }
 
-$mysqli = new mysqli('localhost', 'ping', 'MYSQL-PASSWORD', 'ping');
+$mysqli = new mysqli('localhost', 'ping', 'MYSQLPASSWORD', 'ping');
 
 if ($mysqli->connect_errno) {
 
