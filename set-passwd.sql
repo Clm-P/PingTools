@@ -1,3 +1,4 @@
-use hosts;
-UPDATE sys_user SET passwort = md5('PASSWORD') WHERE username = 'ping';
+CREATE DATABASE hosts;
+CREATE USER 'ping'@'localhost' IDENTIFIED BY 'PASSWORD';
+GRANT ALL PRIVILEGES ON * . * TO 'ping'@'localhost';
 FLUSH PRIVILEGES;
