@@ -1,0 +1,33 @@
+.row {
+    width: 100%;
+    float: left;
+}
+.tile {
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 3px 3px rgba(0,0,0,.07);
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color:#808080;
+    border-radius: 10px;
+}
+.nb{
+	font-size: 80px;
+}
+html{
+	background-color:#F5F5F5;
+}
+.main{
+	padding-left: 55px;
+}
+.tbl{
+	font-size: 15px;
+	text-align: left;
+}
+#cap{
+    text-align: center;
+    font-size: 35px;
+}
